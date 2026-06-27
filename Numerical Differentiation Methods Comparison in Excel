@@ -1,0 +1,67 @@
+Numerical Differentiation Methods Comparison in Excel
+Overview
+This project demonstrates the implementation of several numerical differentiation methods using **Microsoft Excel**. The objective is to approximate the first derivative of a mathematical function and compare the accuracy of each finite difference method through error analysis.
+
+The function analyzed is:
+\[f(x)=x^2\ln(x)+x\]
+Different finite difference formulas are implemented and compared with the analytical derivative to determine which method provides the most accurate approximation.
+
+Objectives
+- Implement numerical differentiation using Microsoft Excel.
+- Compare the accuracy of several finite difference methods.
+- Calculate approximation errors for each method.
+- Visualize the function and error comparison using charts.
+
+Methods
+The following numerical differentiation methods are implemented:
+- Forward Difference O(h)
+- Backward Difference O(h)
+- Central Difference O(h²)
+- Forward Difference O(h²)
+- Central Difference O(h⁴)
+
+Results
+| Method | Approximation Error |
+|---------|--------------------:|
+| Forward Difference O(h) | 4.284% |
+| Backward Difference O(h) | 4.209% |
+| Central Difference O(h²) | 0.038% |
+| Forward Difference O(h²) | 0.072% |
+| Central Difference O(h⁴) | **0.000047%** |
+The comparison shows that the **Fourth-Order Central Difference** achieves the smallest approximation error, making it the most accurate method among those tested.
+
+Features
+- Numerical differentiation using finite difference methods
+- Error analysis
+- Analytical derivative comparison
+- Function visualization
+- Error comparison chart
+- Microsoft Excel implementation
+
+Tools
+- Microsoft Excel
+- Numerical Methods
+- Finite Difference Method
+- Data Visualization
+
+Repository Structure
+```
+├── Numerical_Differentiation.xlsx
+├── README.md
+└── images/
+    ├── function_graph.png
+    └── error_comparison.png
+```
+
+Key Takeaways
+- Higher-order finite difference methods generally produce more accurate approximations.
+- The Fourth-Order Central Difference significantly reduces approximation error.
+- Microsoft Excel can effectively be used to implement and analyze numerical methods without requiring programming languages.
+
+Author
+Oktaviani Putri
+
+Statistics Undergraduate Student
+Aspiring Data Analyst
+
+If you find this project useful, feel free to give it a star!
